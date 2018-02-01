@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profiel</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+   
+    <header>
+
+        <nav>
+            <ul>
+
+                <li>
+                    <a href="index.html"><img src="./images/homeicon.svg" alt=""></a>
+                </li>
+                <li>
+                    <h1>99 verhalen</h1></li>
+                <li>
+                    <a href="profile.html"><img src="./images/profileicon.svg" alt=""></a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <main class="profiel-achtergrond">
+    
+    <section>
+
+        <form action="inprofile.html">
+            <fieldset>
+                <h2>Inloggen</h2>
+                <label for="gebruikersnaam">Gebruikersnaam</label>
+                <input id="gebruikersnaam" type="text" name="firstname" required>
+                <label for="wachtwoord">Wachtwoord</label>
+                <input id="wachtwoord" type="password" name="lastname" required>
+                <input type="submit" value="Log in">
+            </fieldset>
+        </form>
+
+        <form action="inprofile.html">
+            <fieldset>
+
+                <h2>Registreren</h2>
+                <label for="voornaam">Voornaam</label>
+                <input id="voornaam" type="text" name="firstname" required>
+                <label for="achternaam">Achternaam</label>
+                <input id="achternaam" type="text" name="lastname" required>
+                <label for="mail">Emailadres</label>
+                <input id="mail" type="email" name="email" required>
+                <label for="man">Man</label>
+                <input id="man" type="radio" name="gender">
+                <label for="vrouw">Vrouw</label>
+                <input id="vrouw" type="radio" name="gender">
+                <label for="dateofbirth">Geboortedatum</label>
+                <input id="dateofbirth" type="date" required>
+                <input type="submit" value="Registreren">
+
+            </fieldset>
+        </form>
+
+    </section>
+    
+    </main>
+
+        <footer>
+            <img src="images/logo.png" alt="logo">
+        </footer>
+    
+</body>
+
+</html>
